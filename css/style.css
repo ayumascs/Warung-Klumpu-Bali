@@ -1,0 +1,52 @@
+.imgui {
+    background-position: center;
+    background-size: cover;
+    background-image: url("/img/2017-06-26.jpg");
+    min-height: 100%;
+  }
+
+  .welcome {
+    font-family: 'Great Vibes', cursive;
+    font-size: 48px;
+    color: #d4a373;
+}
+
+.restaurant-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #333;
+}
+
+.description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Responsive margins for text */
+@media (max-width: 768px) {
+    .welcome {
+        font-size: 36px;
+    }
+
+    .restaurant-name {
+        font-size: 28px;
+    }
+
+    .description {
+        font-size: 16px;
+    }
+}
+
+#projects{
+    background-color: #273036;
+    color: white;
+}
+
+.buttoncolor{
+    background-color: #555;
+    color: white;
+}
